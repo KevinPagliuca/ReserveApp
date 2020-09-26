@@ -32,6 +32,7 @@ function* addToReserve({ id }) {
     }
 
     yield put(addReserveSuccess(data));
+    console.log(put(addReserveSuccess(data)));
   }
 }
 
@@ -44,10 +45,10 @@ function* updateAmount({ id, amount }) {
 
   if(amount > stockAmount) {
     alert('Quantidade máxima atingida.');
+    amount = stockAmount;
+  } else {
+    yield put(updateaAmountSuccess(id, amount));
   }
-
-  yield put(updateaAmountSuccess(id, amount));
-
 }
 
 export default all([

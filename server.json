@@ -10,27 +10,88 @@
     },
     {
       "id": 22,
-      "amount": 3
+      "amount": 9
+    },
+    {
+      "id": 23,
+      "amount": 8
+    },
+    {
+      "id": 24,
+      "amount": 6
+    },
+    {
+      "id": 25,
+      "amount": 4
+    },
+    {
+      "id": 26,
+      "amount": 12
+    },
+    {
+      "id": 27,
+      "amount": 7
+    },   
+    {
+      "id": 28,
+      "amount": 10
     }
   ],
   "trips": [
     {
       "id": 1,
-      "title": "Viagem Maceió 7 noites",
+      "title": "Viagem Maceió",
       "status": true,
-      "image": "https://sujeitoprogramador.com/wp-content/uploads/2019/12/maceio.jpg"
+      "image": "https://go.hurb.com/wp-content/uploads/2016/12/paju%C3%A7ara-macei%C3%B3.jpg"
     },
     {
       "id": 4,
-      "title": "Viagem Caribe 5 noites",
-      "status": true,
-      "image": "https://sujeitoprogramador.com/wp-content/uploads/2019/12/caribe.jpg"
+      "title": "Viagem Caribe",
+      "status": false,
+      "image": "https://i1.wp.com/urbiviagens.com.br/wp-content/uploads/2017/11/boat-in-caribbean-1488476049siq-1.jpg"
     },
     {
       "id": 22,
-      "title": "Viagem Fernando de Noronha 10 noites",
+      "title": "Viagem Fernando de Noronha",
       "status": true,
-      "image": "https://sujeitoprogramador.com/wp-content/uploads/2019/12/fernand-noronha.jpg"
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/34/01/06/fernando-de-noronha.jpg?w=1100&h=600&s=1"
+    },
+    {
+      "id": 23,
+      "title": "Viagem USA",
+      "status": true,
+      "image": "https://static.rentcars.com/imagens/modules/localidade/about/983-desktop-location-description.png"
+    },
+    {
+      "id": 24,
+      "title": "Viagem Suécia",
+      "status": true,
+      "image": "https://res.cloudinary.com/hostelling-internation/image/upload/c_scale,q_50,w_580,h_242/v1384529213/TripBooks/img33499-View-over-Stockholm-city-centre-.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Viagem Berlim",
+      "status": false,
+      "image": "https://thumbnails.expedia.com/OhBcDc6AiB26vc36s6K9JuJLfGw=/536x384/smart/filters:quality(60)/a.cdn-hotels.com/cos/heroimage/Berlin_0_154961555.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Viagem Bruxelas",
+      "status": true,
+      "image": "https://www.carpemundi.com.br/wp-content/uploads/2018/10/tapete-flores-grand-place-bruxelas.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Viagem Bélgica",
+      "status": false,
+      "image": "https://www.almadeviajante.com/wp-content/uploads/bruges-belgica.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Viagem Argentina",
+      "status": true,
+      "image": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/a17607d14f7a8f574c1095521fc6de50618644a4/big-58e45c6a825daeef3d3e58d608c19254.jpg"
     }
+
   ]
 }

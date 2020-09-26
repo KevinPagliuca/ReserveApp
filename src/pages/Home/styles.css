@@ -8,22 +8,44 @@
 .box li {
   display: flex;
   flex-direction: column;
-  background: #fff;
-  border-radius: 4px;
+  background: #282929;
+  color: #fff;
+  border-radius: 8px;
   padding: 13px;
 }
 
 .box img {
   max-width: 280px;
   max-height: 220px;
-  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20%;
 }
 
 .box strong {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
-  color: #191919;
+  color: rgb(225, 225, 65);
   margin-top: 10px;
+}
+
+.box span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+
+.box span p {
+  margin-left: 5px;
+}
+
+.box span p.ok {
+  color: rgb(65, 225, 65);
+}
+
+.box span p.no {
+  color: rgb(225, 65, 65);
 }
 
 .box button {
@@ -35,6 +57,10 @@
   background: #191919;
   border: 0;
   border-radius: 4px;
+}
+
+.box button:disabled {
+  cursor: not-allowed;
 }
 
 .box button div {
