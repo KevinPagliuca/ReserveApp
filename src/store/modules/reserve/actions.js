@@ -1,7 +1,14 @@
-export function addReserve(trip) {
+export function addReserveRequest(id) {
   return {
-    type: 'ADD_RESERVE',
-    trip
+    type: 'ADD_RESERVE_REQUEST',
+    id
+  }
+}
+
+export function addReserveSuccess(trip) {
+  return {
+    type: 'ADD_RESERVE_SUCCESS',
+    trip,
   }
 }
 
@@ -12,9 +19,17 @@ export function removeReserve(id) {
   }
 }
 
-export function updateaAmountReserve (id, amount) {
+export function updateaAmountRequest (id, amount) {
   return {
-    type: 'UPDATE_RESERVE',
+    type: 'UPDATE_RESERVE_REQUEST',
+    id,
+    amount,
+  }
+}
+
+export function updateaAmountSuccess (id, amount) {
+  return {
+    type: 'UPDATE_RESERVE_SUCCESS',
     id,
     amount,
   }

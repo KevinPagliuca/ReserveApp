@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addReserve } from '../../store/modules/reserve/actions';
+import { addReserveRequest } from '../../store/modules/reserve/actions';
 
 import { MdFlightTakeoff } from 'react-icons/md';
 
@@ -8,7 +8,7 @@ import api from '../../services/api';
 
 import './styles.css';
 
-const Home = () => {
+const Home = ( { history }) => {
   const [trips, setTrips] = useState([]);
   const dispatch = useDispatch();
 
@@ -20,8 +20,9 @@ const Home = () => {
     loadApi();
   }, []);
 
-  function handleAdd(trip) {
-    dispatch(addReserve(trip));
+  function handleAdd(id) {
+    dispatch(addReserveRequest(id));
+    history.push('reservas');
   }
 
   return (
@@ -35,7 +36,7 @@ const Home = () => {
             <button
               type="button"
               onClick={() => {
-                handleAdd(trip)
+                handleAdd(trip.id);                
               }}
             >
               <div>
